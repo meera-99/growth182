@@ -1,0 +1,248 @@
+body {
+    --primary: rgb(253 215 66);
+    margin: 0px;
+    padding: 0px;
+    background-color: #EAEAEA;
+    overflow-x: hidden;
+    
+
+}
+
+.sec{
+    padding: 0px 80px;
+}
+
+.pos{
+    position: absolute;
+    top:10px;
+    width: 100vw;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius:0px 0px 20px 20px;
+    width: 1300px;
+
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    width:500px;
+}
+
+.logo{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.contact button{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+.contact button img{
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.sec1{
+   position: relative;
+
+}
+
+.imgm{
+    position: absolute;
+     width: 100vw;
+     min-height: 100vh;
+     left:0px;
+     right: 0px;
+}
+
+.bordermenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 5px;
+}
+
+.by button{
+    display: flex;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 25px;
+    gap:10px;
+    font-weight: bold;
+}
+
+.b1{
+    border: 3px solid #d0cfcc;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: rgba(0, 255, 255, 0.011);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.butt{
+    display: flex;
+    gap:10px;
+}
+
+.textm{
+    font-family: sans-serif;
+    width: 600px;
+    color: aliceblue;
+
+}
+
+.textm h1{
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.main{
+    display: flex;
+    gap:300px;
+    margin-top: 300px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+   
+    height: 350px;
+}
+
+.bot{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+
+.textcard h1{
+    font-size: 70px;
+}
+
+.textm p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+   
+}
+.sec4 .textm {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+.sec4{
+    padding-top: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+
+.sec4 .card1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  width:300px;
+  height: 400px;
+  font-family: sans-serif;
+
+
+}
+
+.sec5 .card1{
+    height: 440px;
+    flex-direction: row;
+    width: min-content;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.sec5{
+    padding-top:100px;
+}
+
+.num{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.num1{
+    border-right:2px solid gainsboro ;
+    padding-right: 50px;
+}
+
+.carde img{
+     width: 400px;
+     height: 400px;
+}
+
+.sec5 .card{
+    display: flex;
+    gap:30px
+
+}
+
+.cardt{
+     width:300px;
+}
+
+.sec5{
+    padding-right: 0%;
+}
+.mainanm{
+    display: flex;
+    gap:30px;
+    animation: scroll 20s steps(5);
+}
+
+
+
+.sec5 .textm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+}
+
